@@ -18,6 +18,7 @@ Breadboard and Connecting Wires
 
 Copy code
 git clone https://github.com/yourusername/HeartRate-SpO2-Temperature-Detector.git
+
 cd HeartRate-SpO2-Temperature-Detector
 
 ## Install the required libraries:
@@ -30,13 +31,21 @@ You can install these libraries using the Arduino Library Manager.
 Connect the components as per the circuit diagram:
 
 Component	Arduino Pin
+
 MAX30100	SDA (A4), SCL (A5), VCC (3.3V), GND
+
 LM35	A0 (Analog Pin), VCC (5V), GND
+
 LCD RS	12
+
 LCD EN	11
+
 LCD D4	5
+
 LCD D5	4
+
 LCD D6	3
+
 LCD D7	2
 
 # Usage
